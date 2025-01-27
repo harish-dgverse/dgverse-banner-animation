@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# About Repo
+
+Created as part of dgverse.in, it involves the code for the animation in the banner
+
+# Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

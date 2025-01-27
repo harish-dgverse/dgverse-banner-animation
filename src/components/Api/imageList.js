@@ -1,30 +1,36 @@
 
 import animateImg from "../../Assets/aboutus.jpg"
 
+import oldCert1 from '../../Assets/banner-animation/oldCert1.svg';
+import oldCert2 from '../../Assets/banner-animation/oldCert2.svg';
+import oldCert3 from '../../Assets/banner-animation/oldCert3.svg';
+import oldCert4 from '../../Assets/banner-animation/oldCert4.svg';
+import oldCert5 from '../../Assets/banner-animation/oldCert5.svg';
+
 export const images = [
     {
-        image: animateImg
+        image: oldCert1
     },
     {
-        image: animateImg
+        image: oldCert2
     },
     {
-        image: animateImg
+        image: oldCert3
     },
     {
-        image: animateImg
+        image: oldCert4
     },
     {
-        image: animateImg
+        image: oldCert5
     },
     {
-        image: animateImg
+        image: oldCert1
     },
     {
-        image: animateImg
+        image: oldCert2
     },
     {
-        image: animateImg
+        image: oldCert3
     },
     
 ]
