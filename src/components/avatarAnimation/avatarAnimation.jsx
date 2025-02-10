@@ -18,7 +18,7 @@ const AvatarAnimation = () => {
             <div className="hole-line"></div>
             <div className="box">
               <div className="img">
-                {images.map((res, index) => (
+                {newimages.map((res, index) => (
                   <div
                     key={index}
                     className="imgBx"
@@ -32,7 +32,7 @@ const AvatarAnimation = () => {
           <div className="leftMask">
             <div className="box-right">
               <div className="img">
-                {newimages.map((res, index) => (
+                {images.map((res, index) => (
                   <div
                     key={index}
                     className="imgBx"

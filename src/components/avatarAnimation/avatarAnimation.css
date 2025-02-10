@@ -3,13 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    max-height: 425px;
+    overflow: hidden;
+}
 .outerpart-view{
-display: flex;
-align-items: center;
-justify-content: center;
-min-height: 100vh;
-background: #222;
-overflow: hidden;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    min-height: auto;
+    max-height: 500px;
+    background-image: url('../../Assets/background.png');
+    overflow: hidden;
 }
 
 .container {
@@ -25,25 +34,25 @@ overflow: hidden;
 .imageanimate {
     position: relative;
     width: 400px;
-    height: 100vh;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .rightMask {
     display: flex;
-    background: #222222;
+    background: transparent;
     width: 340px;
-    height: 100vh;
+    height: 500px;
     position: absolute;
     right: -35%;
     overflow: hidden;
 }
 .leftMask {
     display: flex;
-    background: #222222;
+    background: transparent;
     width: 340px;
-    height: 100vh;
+    height: 500px;
     position: absolute;
     left: -35%;
     overflow: hidden;
@@ -134,16 +143,18 @@ cursor: pointer;
 
 .hole-line {
     display: flex;
-    background: #fff;
-    width: 4px;
-    height: 80px;
+    background: #333;
+    width: 10px;
+    height: 100px;
     border-radius: 100%;
     position: absolute;
-    top: 12%;
+    top: 20px;
     left: 10%;
     z-index: 3;
     box-shadow: 3px 5px 14px 2px #ccc;
+    border: 1px solid #fafafa;
 }
+
 
 /* @keyframes animateImgBx
 {
@@ -156,3 +167,11 @@ cursor: pointer;
         rotate: -360deg;
     }
 } */
+
+@media screen and (min-width:750px) and (max-width:1440px)  {
+    
+}
+
+@media screen and (max-width:769px) {
+    
+}
