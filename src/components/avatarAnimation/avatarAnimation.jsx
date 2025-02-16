@@ -1,8 +1,7 @@
 import React from "react";
 import "./avatarAnimation.css";
 import centerPic from "../../Assets/center.png";
-import samplePic from "../../Assets/aboutus.jpg";
-import { images } from "../Api/imageList";
+import { initialImages } from "../Api/imageList";
 import { newimages } from "../Api/newImageList";
 
 const AvatarAnimation = () => {
@@ -32,7 +31,7 @@ const AvatarAnimation = () => {
           <div className="leftMask">
             <div className="box-right">
               <div className="img">
-                {images.map((res, index) => (
+                {initialImages.map((res, index) => (
                   <div
                     key={index}
                     className="imgBx"

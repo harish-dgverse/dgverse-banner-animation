@@ -7,7 +7,7 @@ import oldCert3 from '../../Assets/banner-animation/oldCert3.svg';
 import oldCert4 from '../../Assets/banner-animation/oldCert4.svg';
 import oldCert5 from '../../Assets/banner-animation/oldCert5.svg';
 
-export const images = [
+export const initialImages = [
     {
         image: oldCert1
     },

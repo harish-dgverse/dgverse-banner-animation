@@ -8,7 +8,7 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    max-height: 425px;
+    max-height: 450px;
     overflow: hidden;
 }
 .outerpart-view{
@@ -143,16 +143,14 @@ cursor: pointer;
 
 .hole-line {
     display: flex;
-    background: #333;
-    width: 10px;
-    height: 100px;
-    border-radius: 100%;
+    background: #000;
+    width: 100px;
+    height: 145px;
+    border-radius: 0;
     position: absolute;
-    top: 20px;
-    left: 10%;
+    top: 0;
+    left: 0;
     z-index: 3;
-    box-shadow: 3px 5px 14px 2px #ccc;
-    border: 1px solid #fafafa;
 }
 
 
