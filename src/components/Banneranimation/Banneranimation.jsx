@@ -1,6 +1,4 @@
-import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { v4 as uuidv4 } from "uuid";
 import centerPic from "../../Assets/center.png";
 import "./Banneranimation.css";
 

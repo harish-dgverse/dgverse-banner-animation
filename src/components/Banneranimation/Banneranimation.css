@@ -146,7 +146,7 @@
 }
 
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 680px) {
 
   .side-outer {
     display: flex;
