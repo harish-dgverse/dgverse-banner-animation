@@ -1,11 +1,11 @@
 .content-section-view {
     margin: 50px;
+    position: relative;
 
     .credential-image-part {
         display: flex;
         flex-direction: column;
         width: 100%;
-        position: relative;
 
         .credential-satlite-image {
             display: inline-flex;
@@ -17,7 +17,7 @@
             position: absolute;
             top: 0;
             left: 0;
-            transform: translate(-15%, -10%);
+            transform: translate(0%, -10%);
 
             .bottom-pic {
                 position: relative;
@@ -58,14 +58,13 @@
     }
 
     .credential-content-part {
-        position: relative;
         width: 100%;
 
         .credential-content-img {
             position: absolute;
             right: 0;
             top: 0;
-            transform: translate(125%, 150%) rotate(45deg);
+            transform: translate(25px, 100%) rotate(45deg);
         }
     }
 }
