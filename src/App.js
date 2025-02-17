@@ -1,6 +1,6 @@
 import './App.css';
 import AvatarAnimation from './components/avatarAnimation/avatarAnimation';
-import Banneranimation from './components/Banneranimation/Banneranimation';
+import Banneranimation from './components/Banneranimation/Banneranimation.jsx';
 import IntroSection from './components/satellite/satellite.tsx';
 
 function App() {
