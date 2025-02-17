@@ -1,5 +1,5 @@
 import React from "react";
-import "./avatarAnimation.css";
+import "./avatarAnimation.scss";
 import centerPic from "../../Assets/center.png";
 import { initialImages } from "../Api/imageList";
 import { newimages } from "../Api/newImageList";
