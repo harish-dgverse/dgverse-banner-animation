@@ -1,0 +1,71 @@
+.content-section-view {
+    margin: 50px;
+
+    .credential-image-part {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+
+        .credential-satlite-image {
+            display: inline-flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+            align-items: baseline;
+            justify-content: flex-start;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate(-15%, -10%);
+
+            .bottom-pic {
+                position: relative;
+                left: 35px;
+                top: 25px;
+            }
+
+            img.top-pic {
+                position: relative;
+                top: 35px;
+                left: 25px;
+            }
+
+            .middle-pic {
+                animation: MoveUpDown 3s linear infinite;
+                position: relative;
+            }
+
+        }
+
+        .astronut-img {
+            width: 100%;
+            max-width: 300px;
+            margin: 120px 0 0 0;
+        }
+    }
+
+    @keyframes MoveUpDown {
+
+        0%,
+        100% {
+            bottom: -10px;
+        }
+
+        50% {
+            bottom: 15px;
+        }
+    }
+
+    .credential-content-part {
+        position: relative;
+        width: 100%;
+
+        .credential-content-img {
+            position: absolute;
+            right: 0;
+            top: 0;
+            transform: translate(125%, 150%) rotate(45deg);
+        }
+    }
+}
