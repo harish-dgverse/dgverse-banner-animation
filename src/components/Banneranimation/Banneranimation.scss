@@ -1,261 +1,257 @@
-
-
 .banner-animation{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 450px;
-  .outer-part {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 450px;
-    align-items: baseline;
-    justify-content: center;
-    min-height: auto;
-    background-image: url('../../Assets/background.png');
-  }
-  
-  
-  .side-outer {
-    display: flex;
-    width: 650px;
-    position: absolute;
-    right: 0;
-    height: 450px;
-  }
-  
-  .rightside {
-    position: absolute;
-    display: flex;
-    height: 450px;
-    overflow: hidden;
-    left: 0%;
-    width: 325px;
-  }
-  
-  .leftside {
-    width: 325px;
-    position: absolute;
-    display: flex;
-    height: 450px;
-    overflow: hidden;
-    right: 0%;
-  }
-  
-  
-  
-  .rightside .circle-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 450px;
-    position: relative;
-    top: 100px;
-    left: 50%;
-    width: 325px;
-  }
-  
-  .leftside .circle-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 100px;
-    right: 50%;
-    width: 325px;
-    height: 450px;
-  }
-  
-  .hole {
-    display: inline-flex;
-    width: 100px;
-    height: 150px;
-    background-image: url('../../Assets/background.png');
-    position: absolute;
-    right: 50%;
-    transform: translate(50%, 0%);
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-    background-position: 100px -50px;
-  }
-  
-  .circle {
-    display: inline-flex;
-    width: 4px;
-    height: 100px;
-    background: #000;
-    border-radius: 100%;
-    border: 1px solid #fff;
-    box-shadow: 3px 5px 10px #fff;
-  }
-  
-  .circle-container {
-    position: relative;
-    width: 300px;
-    /* Adjust width */
-    height: 300px;
-    /* Adjust height for full circle */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: rotateCircle 10s linear infinite;
-    /* Full circle rotation */
-  }
-  
-  @keyframes rotateCircle {
-    from {
-      transform: rotate(0deg);
+  color: #fff;
+  background-image: url('../../Assets/background.png');
+    .outer-part {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100vw;
+      height: 450px;
+      margin-top: 50px;
+      align-items: baseline;
+      justify-content: center;
+      min-height: auto;
     }
-  
-    to {
-      transform: rotate(360deg);
+    
+    .side-outer {
+      display: flex;
+      width: 650px;
+      position: absolute;
+      right: 0;
+      height: 450px;
     }
-  }
-  
-  .circle-image {
-    position: absolute;
-    width: 100px;
-    /* Image size */
-    height: 100px;
-    border-radius: 0;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .center-image {
-    position: absolute;
-    left: 50%;
-    animation: MoveUpDown 3s linear infinite;
-    z-index: 3;
-    top: 55%;
-    transform: translate(-50%, -50%);
-  }
-  
-  @keyframes MoveUpDown {
-  
-    0%,
-    100% {
-      bottom: 5px;
+    
+    .rightside {
+      position: absolute;
+      display: flex;
+      height: 450px;
+      overflow: hidden;
+      left: 0%;
+      width: 325px;
     }
-  
-    50% {
-      bottom: 30px;
+    
+    .leftside {
+      width: 325px;
+      position: absolute;
+      display: flex;
+      height: 450px;
+      overflow: hidden;
+      right: 0%;
     }
-  }
-  
-  .center-image img {
-    display: flex;
-    width: 225px;
-    height: auto;
-  }
-
-}
-
-@media screen and (max-width: 680px) {
-
-  .banner-animation{
-    height: 400px;
-    overflow: hidden;
-    .outer-part{
-      .side-outer {
-        display: flex;
-        width: 100vw;
-        position: absolute;
-        right: 0;
-        height: 450px;
+    
+    
+    
+    .rightside .circle-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 450px;
+      position: relative;
+      top: 100px;
+      left: 50%;
+      width: 325px;
+    }
+    
+    .leftside .circle-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 100px;
+      right: 50%;
+      width: 325px;
+      height: 450px;
+    }
+    
+    .hole {
+      display: inline-flex;
+      width: 10px;
+      height: 150px;
+      // background-image: url('../../assets/landingPage/banner-background.png');
+      // background-image: url('../../Assets/background.png');
+      position: absolute;
+      right: 50%;
+      transform: translate(50%, 0%);
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+      background-position: 100px -50px;
+    }
+    
+    .circle {
+      display: inline-flex;
+      width: 4px;
+      height: 100px;
+      background: #000;
+      border-radius: 100%;
+      border: 1px solid #fff;
+      box-shadow: 3px 5px 10px #fff;
+    }
+    
+    .circle-container {
+      position: relative;
+      width: 300px;
+      /* Adjust width */
+      height: 300px;
+      /* Adjust height for full circle */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      animation: rotateCircle 10s linear infinite;
+      /* Full circle rotation */
+    }
+    
+    @keyframes rotateCircle {
+      from {
+        transform: rotate(0deg);
       }
     
-      .leftside {
-        width: 50vw;
-        position: absolute;
-        display: flex;
-        height: 450px;
-        overflow: hidden;
-        right: 0%;
-      }
-    
-      .leftside .circle-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        top: 50px;
-        right: 70%;
-        width: 100%;
-        height: 450px;
-      }
-    
-      .rightside {
-        position: absolute;
-        display: flex;
-        height: 450px;
-        overflow: hidden;
-        left: 0%;
-        width: 50vw;
-      }
-    
-      .rightside .circle-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 450px;
-        position: relative;
-        top: 50px;
-        left: 70%;
-        width: 100%;
-      }
-    
-      .circle-image {
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        border-radius: 0;
-        transition: transform 0.5sease-in-out;
-      }
-    
-      .center-image img {
-        display: flex;
-        width: 180px;
-        height: auto;
+      to {
+        transform: rotate(360deg);
       }
     }
-  }
-
- 
-
-}
-
-@media screen and (max-width:420px){
-  .banner-animation{
-    height: 345px;
-    overflow: hidden;
-    .outer-part{
-      .circle-image{
-        width: 60px;
-        height: 60px;
+    
+    .circle-image {
+      position: absolute;
+      width: 100px;
+      /* Image size */
+      height: 100px;
+      border-radius: 0;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .center-image {
+      position: absolute;
+      left: 50%;
+      animation: MoveUpDown 3s linear infinite;
+      z-index: 3;
+      top: 55%;
+      transform: translate(-50%, -50%);
+    }
+    
+    @keyframes MoveUpDown {
+    
+      0%,
+      100% {
+        bottom: 5px;
       }
-      .side-outer{
-        .rightside{
-          .circle-wrapper{
-            top: 0;
-          }
+    
+      50% {
+        bottom: 30px;
+      }
+    }
+    
+    .center-image img {
+      display: flex;
+      width: 225px;
+      height: auto;
+    }
+  
+  }
+  
+  @media screen and (max-width: 680px) {
+  
+    .banner-animation{
+      height: 400px;
+      overflow: hidden;
+      .outer-part{
+        .side-outer {
+          display: flex;
+          width: 100vw;
+          position: absolute;
+          right: 0;
+          height: 450px;
         }
-        .leftside{
-          .circle-wrapper{
-            top: 0;
-          }
+      
+        .leftside {
+          width: 50vw;
+          position: absolute;
+          display: flex;
+          height: 450px;
+          overflow: hidden;
+          right: 0%;
         }
-        .center-image{
-          img{
-            width: 140px;
-          }
+      
+        .leftside .circle-wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          top: 50px;
+          right: 70%;
+          width: 100%;
+          height: 450px;
+        }
+      
+        .rightside {
+          position: absolute;
+          display: flex;
+          height: 450px;
+          overflow: hidden;
+          left: 0%;
+          width: 50vw;
+        }
+      
+        .rightside .circle-wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 450px;
+          position: relative;
+          top: 50px;
+          left: 70%;
+          width: 100%;
+        }
+      
+        .circle-image {
+          position: absolute;
+          width: 80px;
+          height: 80px;
+          border-radius: 0;
+          transition: transform 0.5sease-in-out;
+        }
+      
+        .center-image img {
+          display: flex;
+          width: 180px;
+          height: auto;
         }
       }
     }
+  
+   
+  
   }
-}
-
+  
+  @media screen and (max-width:420px){
+    .banner-animation{
+      height: 345px;
+      overflow: hidden;
+      .outer-part{
+        .circle-image{
+          width: 60px;
+          height: 60px;
+        }
+        .side-outer{
+          .rightside{
+            .circle-wrapper{
+              top: 0;
+            }
+          }
+          .leftside{
+            .circle-wrapper{
+              top: 0;
+            }
+          }
+          .center-image{
+            img{
+              width: 140px;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  
